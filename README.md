@@ -52,4 +52,5 @@ In some cases your request should contain other attributes.
 For example: `create_order` can contain `sandbox`
 
 In these cases you can add additional arguments into named arguments:
+
 `api.create_order(amount=100, successUrl='url', failUrl='url', sandbox=True)`
